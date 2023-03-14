@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Images</title>
+</head>
+<body>
+    <img>
+<img>
+<img>
+<img>
+<img>
+<script>
+    var img=document.images;
+    console.log(img)
+    for(i=0;i<img.length;i++)
+    {
+        img[i].src=i+".jpeg"
+        img[i].style.width="120px"
+    }
+</script>
+</body>
+</html>
